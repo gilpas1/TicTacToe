@@ -6,6 +6,7 @@ html{
 }
 body{
     min-height: 100vh;
+    margin: 0;
     background-color: cadetblue;
     display: flex;
     flex-direction: column;
@@ -48,4 +49,7 @@ input[type=text]{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+#content {
+    text-align: center;
 }
